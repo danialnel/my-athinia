@@ -1,5 +1,6 @@
 # my-athinia
 a little and happy world filled with love from danial for athinia
+
 <!DOCTYPE html>
 
 <html>
@@ -88,12 +89,36 @@ You are my favourite person and I hope this little website makes you smile.
 
 </div>
 
-<button onclick="alert('I love you Princess 💗')">
+<button onclick="showLove()">
 
-Open Surprise
+Open Surprise 💗
 
 </button>
 
-</body>
+<div id="surprise" class="card" style="display:none;">
 
-</html>
+<h2>🌙 My Princess 💜</h2>
+
+<p>
+
+No matter how far we are, I hope you always remember how special you are to me.
+
+<br><br>
+
+Love, Buggy 🤍
+
+</p>
+
+</div>
+
+<script>
+
+function showLove() {
+
+  document.getElementById("surprise").style.display = "block";
+
+}
+
+</script>
+
+
