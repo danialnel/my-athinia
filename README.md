@@ -1,19 +1,16 @@
-# my-athinia
-a little and happy world filled with love from danial for athinia
-
 <!DOCTYPE html>
 
 <html>
 
 <head>
 
-<title>For My Princess 💗</title>
+<title>For My Princess Athinia 💗</title>
 
 <style>
 
 body {
 
-  background: linear-gradient(#1b0033, #ffb6d9);
+  background: linear-gradient(#12001f, #ffb6d9);
 
   color: white;
 
@@ -21,7 +18,7 @@ body {
 
   text-align: center;
 
-  padding: 40px;
+  padding: 30px;
 
 }
 
@@ -39,21 +36,45 @@ h1 {
 
   border-radius: 25px;
 
-  margin: 20px;
+  margin: 25px auto;
+
+  max-width: 500px;
+
+  backdrop-filter: blur(5px);
 
 }
 
 button {
 
-  background: pink;
+  background: #ff8fcf;
+
+  color: white;
 
   border: none;
 
-  padding: 15px 25px;
+  padding: 15px 30px;
 
   border-radius: 30px;
 
   font-size: 18px;
+
+}
+
+button:active {
+
+  transform: scale(0.95);
+
+}
+
+#surprise {
+
+  display: none;
+
+}
+
+.star {
+
+  font-size: 20px;
 
 }
 
@@ -63,15 +84,25 @@ button {
 
 <body>
 
-<h1>🌙 For My Princess Athinia 💗</h1>
+<div class="star">
+
+🌙 ✨ 🌸 ✨ 🌙
+
+</div>
+
+<h1>My Princess Athinia 👑💗</h1>
 
 <div class="card">
 
-<h2>Welcome, Princess 👑</h2>
+<h2>Welcome, Princess 💜</h2>
 
 <p>
 
-Made with love from Buggy 💕
+This little website is made by Buggy 🤍
+
+<br><br>
+
+A small place filled with memories, love, and smiles.
 
 </p>
 
@@ -79,33 +110,47 @@ Made with love from Buggy 💕
 
 <div class="card">
 
-<h2>💌 A Little Letter</h2>
+<h2>💌 A Letter</h2>
 
 <p>
 
-You are my favourite person and I hope this little website makes you smile.
+Dear Princess,
+
+<br><br>
+
+Thank you for being someone special in my life.
+
+I hope this little surprise makes you smile.
+
+<br><br>
+
+Love,
+
+<br>
+
+Buggy 💗
 
 </p>
 
 </div>
 
-<button onclick="showLove()">
+<button onclick="showSurprise()">
 
-Open Surprise 💗
+Open Surprise 🌸
 
 </button>
 
-<div id="surprise" class="card" style="display:none;">
+<div id="surprise" class="card">
 
 <h2>🌙 My Princess 💜</h2>
 
 <p>
 
-No matter how far we are, I hope you always remember how special you are to me.
+No matter what happens, I hope you remember that you are important to me.
 
 <br><br>
 
-Love, Buggy 🤍
+I love you Princess 💗
 
 </p>
 
@@ -113,12 +158,15 @@ Love, Buggy 🤍
 
 <script>
 
-function showLove() {
+function showSurprise() {
 
-  document.getElementById("surprise").style.display = "block";
+document.getElementById("surprise").style.display = "block";
 
 }
 
 </script>
 
+</body>
+
+</html>
 
